@@ -14,9 +14,9 @@ contig_name start_position  end_position  description_or_gene_name
 Although other fields may appear, and gene names/descriptors are optional for bed files, this program expects them.
 
 Things not tested:
--Offsets that might break the program.
--Tile lengths & gaps that might break the program.
--Hard masked characters like X/x's.
+- Offsets that might break the program.
+- Tile lengths & gaps that might break the program.
+- Hard masked characters like X/x's.
 
 Dependencies: 
 - Java 8 (1.8)
