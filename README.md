@@ -1,0 +1,2 @@
+# Coati
+Amplicon Panel Generation
