@@ -1,7 +1,10 @@
 # Coati
 Amplicon Panel Generation
 
-This program generates amplicon panels for you. You just put in a bed file with genes you care about tiling over (as well as a refernce FASTA), and it will do the rest.
+This program generates amplicon panels for you. It outputs a variety of amplicons for you to select from along with metrics for each to help narrow down the useful ones. Chan
+
+Input:
+You just put in a bed file with genes you care about tiling over (as well as a refernce FASTA), and it will do the rest.
 
 You have to specify size of the tile (amplicon), any gap between tiles, and an offset (move the first tile position in/ out - with respect to the bed file start position.
 
@@ -13,6 +16,9 @@ contig_name start_position  end_position  description_or_gene_name
 
 Although other fields may appear, and gene names/descriptors are optional for bed files, this program expects them.
 
+Output:
+For the time being, the output file is in tab separated value format. The headers let you know which metric you are looking at.
+
 Things not tested:
 - Offsets that might break the program.
 - Tile lengths & gaps that might break the program.
@@ -22,6 +28,15 @@ Dependencies:
 - Java 8 (1.8)
 - Samtools: Any version with FAIDX that matches the 1.9 command input structure.
 - Linux - The call to samtools is through a BASH script- that is generated ad-hoc for each region. This will not change until the tool gets some serious time investment for doing the things that FAIDX does.
+
+Support: 
+Submit a bug report on GitHub. I will do my best to respond to you.
+
+Citation:
+Facista SF. Coati. Available at: https://github.com/sfacista/Coati/
+
+If you have the means to support this project: 
+https://www.tgen.org/donate/
 
 Version 1.0 - Last Updated 2019-11-11
 -Salvatore Facista
