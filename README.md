@@ -1,7 +1,7 @@
 # Coati
 Amplicon Panel Generation
 
-This program generates amplicon panels for you. It outputs a variety of amplicons for you to select from along with metrics for each to help narrow down the useful ones. Chan
+This program generates amplicon panels for you. It outputs a variety of amplicons for you to select from along with metrics for each to help narrow down the useful ones.
 
 Input:
 You just put in a bed file with genes you care about tiling over (as well as a refernce FASTA), and it will do the rest.
